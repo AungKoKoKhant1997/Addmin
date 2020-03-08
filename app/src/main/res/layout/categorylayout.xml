@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/cgysrc"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:paddingTop="22dp"
+        android:textColor="#000000"
+        android:text="1."
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/cgyname"
+        android:layout_width="230dp"
+        android:textColor="#000000"
+        android:layout_height="45dp"
+        android:text="Category name"
+        android:textSize="20sp"
+        android:paddingLeft="22dp"/>
+    <ImageView
+        android:id="@+id/options"
+        android:tint="#000000"
+        android:src="@drawable/ic_options"
+        android:layout_marginLeft="30sp"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
